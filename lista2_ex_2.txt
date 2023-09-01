@@ -1,0 +1,14 @@
+Porque trata-se de tipos diferentes de ponteiros. As operacoes de soma e subtracao em ponteiros seguem a quantidade de bytes reservada pelo respectivo tipo desse ponteiro.
+
+Exemplo:
+char = 1 byte
+seja char *p um ponteiro do tipo char
+ao incrementa-lo em 1 unidade (p+1) serah considerada a soma de 1 unidade (1 byte) no endereco de p
+
+int = 4 bytes
+seja int *p um ponteiro do tipo int
+ao incrementa-lo em 1 unidade (p+1) serah considerada a soma de 4 unidades (4 bytes) no endereco de p
+
+double = 8 bytes
+seja int *p um ponteiro do tipo double
+ao incrementa-lo em 1 unidade (p+1) serah considerada a soma de 8 unidades (8 bytes) no endereco de p
